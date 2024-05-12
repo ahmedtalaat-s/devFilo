@@ -1,0 +1,195 @@
+
+/* global */
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+.heading h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.heading::after{
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform:translateX(-50%) ;
+    -webkit-transform:translateX(-50%) ;
+    -moz-transform:translateX(-50%) ;
+    -ms-transform:translateX(-50%) ;
+    -o-transform:translateX(-50%) ;
+    width: 50px;
+    height: 5px;
+    background-color: #09c;
+}
+/* <!-- ===================start home======================= --> */
+.landing{
+    background: url("../images/home.jpg") center no-repeat;
+    background-size: cover;
+}
+.landing.layer{
+    background-color: rgba(0, 0, 0, 0.586);
+}
+/* <!-- ===================end home======================= --> */
+/* <!-- ===================start about======================= --> */
+.about{
+    padding-block: 70px;
+}
+.underline::after{
+    content: "";
+    width: 110px;
+    height: 3px;
+    background-color:#0d6efd;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+}
+/* <!-- ===================end about======================= --> */
+/* <!-- =========== Start SERVICES   =========== --> */
+.services .card span{
+    display: flex;
+    font-size: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 6px #09c;
+    color: #09c;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+.services .card :hover span{
+    color: #fff;
+    background-color: #09c;
+    box-shadow: 0 0 0 6px rgba(0, 153, 204, 0.304) ;
+}
+/* <!-- =========== End SERVICES   =========== --> */
+
+/* <!-- =========== Start PORTFOLIO   =========== --> */
+
+ /* < !--===========Start counter===========--> */
+.counter{
+    background: url('../images/counters-bg.jpg' ) center fixed no-repeat;
+    background-size: cover;
+} 
+.counter .layer{
+    background-color: rgba(0, 153, 204, 0.54);
+    padding: 70px;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.counter .container{
+    color: #fff;
+    
+}
+.counter .container span{
+    display: inline-block;
+    margin-bottom:20px;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-color: #fff;
+    border: 7px solid;
+}
+ /* < !--===========End counter===========--> */
+
+/* <!-- =========== START PORTFOLIO   =========== --> */
+.portfolio .card .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.portfolio .card .content .plus {
+    font-size: 25px;
+    padding: 0 5px;
+    
+}
+
+.portfolio .card img{
+    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.portfolio .card:hover img {
+    filter: grayscale(0%);
+    filter:brightness(110%) ;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-filter:brightness(110%) ;
+}
+
+/* <!-- =========== End PORTFOLIO   =========== --> */
+
+/* <!-- =========== Start slider   =========== --> */
+.slider .cover{
+    background: url('../images/overlay-bg.jpg') fixed no-repeat center;
+    background-size: cover;
+}
+.slider .layer{
+    background-color: rgba(0, 153, 204, 0.54);
+    color: #fff;
+}
+.slider .container .image img{
+    width: 80px;
+    height: 80px;
+}
+.slider .container .img{
+    width: 50px;
+    height: 50px;
+}
+
+/* <!-- =========== End slider   =========== --> */
+/* ===================== Start Blog =============================== */
+.blog .container .card-footer img{
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+}
+.blog .container .card-img-overlay div{
+    padding: 3px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background-color: #09c;
+    color: white;
+}
+/* ===================== End Blog =============================== */
+
+/* <!-- =========== Start Contact   =========== --> */
+
+/* <!-- =========== End Contact   =========== --> */
+
+
